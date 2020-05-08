@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belt</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="row">
+                    <div class="col-md-3 col-4">
+                        <div class="logo">
+                            <p class="logo-text"><span class="logo-title">GDT</span>Store</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <div class="search">
+                            <input type="text" id="mySearch" name="search" placeholder="Search...">
+                            <button type="button" class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-4">
+                        <div class="header-right row">
+                            <div class="cart col-md-2">
+                                <a href="Carts.html" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="log-in col-md-10">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Đăng nhập</a>
+                                        <ul class="btn-dropdown">
+                                            <li> <a href="Login.html">Đăng nhập</a></li>
+                                            <li><a href="Signup.html">Tạo tài khoản</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myMenu" class="menu">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Clothing.html">Clothing</a>
+                        <ul class="menu-child">
+                            <li><a href="Coats.html">Áo</a></li>
+                            <li><a href="trousers.html">Quần</a></li>
+                            <li><a href="skirt.html">Váy</a></li>
+                            <li><a href="MiniSkirt.html">Chân váy</a></li>
+                            <li><a href="Set.html">Set</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Accessories.html">Accessories</a>
+                        <ul class="menu-child">
+                            <li><a href="Sneaker.html">Giày</a></li>
+                            <li><a href="Bags.html">Túi</a></li>
+                            <li><a href="Towel.html">Khăn</a></li>
+                            <li><a href="Belt.html">Thắt lưng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="AboutUs.html">About us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="filter">
+                        <div class="group-filter">
+                            <h2 class="filter-title">Clothing</h2>
+                            <div class="filter-option">
+                                <ul>
+                                    <li id="coats">Áo khoác <span class="counter"></span></li>
+                                    <li id="shirt">Áo sơ mi <span class="counter"></span></li>
+                                    <li id="T-shirt">Áo phông <span class="counter"></span></li>
+                                    <li id="sweater">Áo len <span class="counter"></span></li>
+                                    <li id="shorts">Quần đùi <span class="counter"></span></li>
+                                    <li id="pants">Quần vải <span class="counter"></span></li>
+                                    <li id="KakiPants">Quần kaki <span class="counter"></span></li>
+                                    <li id="dress">Váy <span class="counter"></span></li>
+                                    <li id="skirt">Chân váy <span class="counter"></span></li>
+                                    <li id="fullsets">Set <span class="counter"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="group-filter">
+                            <h2 class="filter-title">Accessories</h2>
+                            <div class="filter-option">
+                                <ul>
+                                    <li id="sneaker">Giày <span class="counter"></span></li>
+                                    <li id="bags">Túi <span class="counter"></span></li>
+                                    <li id="towel">Khăn <span class="counter"></span></li>
+                                    <li id="belts">Thắt lưng <span class="counter"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="group-filter">
+                            <h2 class="filter-title">Color </h2>
+                            <div class="filter-option">
+                                <ul>
+                                    <li id="clBlack"><span class="choose-color black"></span>Đen <span class="counter"></span></li>
+                                    <li id="clBeige"><span class="choose-color beige"></span> Be <span class="counter"></span></li>
+                                    <li id="clBlue"><span class="choose-color blue"></span> Xanh <span class="counter"></span></li>
+                                    <li id="clWhite"><span class="choose-color white"></span> Trắng <span class="counter"></span></li>
+                                    <li id="clOrange"><span class="choose-color orange"></span> Cam <span class="counter"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="group-filter">
+                            <h2 class="filter-title">Size</h2>
+                            <div class="filter-option filter-check">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" id="size S">
+                                        <label for="size S" class="check-content">size S <span class="counter"></span></label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="size M">
+                                        <label for="size M" class="check-content">size M <span class="counter"></span></label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="size L">
+                                        <label for="size L" class="check-content">size L <span class="counter"></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="group-filter">
+                            <h2 class="filter-title">Price</h2>
+                            <div class="filter-option filter-radio">
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="price"  id="price 200">
+                                        <label class="radio-content" for="price 200">0-200.000đ <span class="counter"></span> </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="price" id="price 500">
+                                        <label class="radio-content" for="price 500">200.000đ-500.000đ<span class="counter"></span></label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="price" id="price more">
+                                        <label class="radio-content" for="price more"> >500.000đ<span class="counter"></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 padd-1">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2 class="title">THÔNG TIN CỬA HÀNG</h2>
+                            <div class="group-4">
+                                <ul>
+                                    <li><a href="">Giới Thiệu GDT-Store</a></li>
+                                    <li><a href="">Chương Trình Affiliate</a></li>
+                                    <li><a href="">Blog Thời Trang</a></li>
+                                    <li><a href="">Chiết Khấu Cho SInh Viên</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h2 class="title">HỖ TRỢ KHÁCH HÀNG</h2>
+                            <div class="group-4">
+                                <ul>
+                                    <li><a href="">Phí Vận Chuyển</a></li>
+                                    <li><a href="">Trả Lại</a></li>
+                                    <li><a href="">Hướng Dẫn Đặt Hàng</a></li>
+                                    <li><a href="">Làm Thế Nào Để Theo Dõi</a></li>
+                                    <li><a href="">Hướng Dẫn Kích Thước</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h2 class="title">DỊCH VỤ KHÁCH HÀNG</h2>
+                            <div class="group-4">
+                                <ul>
+                                    <li><a href="">Liên Hệ Chúng Tôi</a></li>
+                                    <li><a href="">Phương Thức Thanh Toán</a></li>
+                                    <li><a href="">Điểm Thưởng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 padd-2">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <h2 class="title">KẾT NỐI VỚI CHÚNG TÔI</h2>
+                            <div class="group-4 card-content">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="title">APP</h2>
+                            <div class="group-4 app-content">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+                                    <li> <a href=""><i class="fa fa-android" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pay-card">
+                        <h2 class="title">CHÚNG TÔI CHẤP NHẬN</h2>
+                        <div class="img-card">
+                            <img src="images/card-paypal.jfif">
+                            <img src="images/card-american.jfif">
+                            <img src="images/card-master.png">
+                            <img src="images/card-maestro.png">
+                            <img src="images/card-visa.jpg">
+                            <img src="images/card-bidv.png">
+                            <img src="images/card-jcb.jfif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var filterTitle,i;
+    filterTitle=document.getElementsByClassName("filter-title");
+    for(i=0;i<filterTitle.length;i++){
+        filterTitle[i].addEventListener("click",function () {
+            this.classList.toggle("active");
+            var filterOption = this.nextElementSibling;
+            if(filterOption.style.maxHeight){
+                filterOption.style.maxHeight =null;
+                filterOption.style.opacity ="0";
+            }else{
+                filterOption.style.maxHeight += filterOption.scrollHeight+ "px";
+                filterOption.style.opacity = "1";
+            }
+
+        })
+    }
+</script>
+</body>
+</html>
