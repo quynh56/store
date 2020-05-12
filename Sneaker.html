@@ -38,14 +38,13 @@
                                 <a href="Carts.html" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                             </div>
                             <div class="log-in col-md-10">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Đăng nhập</a>
-                                        <ul class="btn-dropdown">
-                                            <li> <a href="Login.html">Đăng nhập</a></li>
-                                            <li><a href="Signup.html">Tạo tài khoản</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <button class="dropdown Login">Đăng nhập</button>
+                                <div class="btn-content">
+                                    <ul>
+                                        <li class="Login"> Đăng nhập</li>
+                                        <li><a href="Signup.html">Tạo tài khoản</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,16 +166,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="item-img">
-                                <div class="show-img">
-                                    <a href="#">
-                                        <img src="images/boots-01.jpg" alt="" >
-                                    </a>
-                                </div>
-                                <div class="img-hover">
-                                    <a href="#">
-                                        <img src="images/boots-01.1.jpg" alt="">
-                                    </a>
-                                </div>
+                               <div class="positionImg">
+                                   <div class="show-img">
+                                       <a href="#">
+                                           <img src="images/boots-01.jpg" alt="" >
+                                       </a>
+                                   </div>
+                                   <div class="img-hover">
+                                       <a href="#">
+                                           <img src="images/boots-01.1.jpg" alt="">
+                                       </a>
+                                   </div>
+                                   <button class="text-cart">Thêm vào giỏ hàng</button>
+                               </div>
                                 <a href="#">
                                     <div class="group-3">
                                         <p class="description">Boots thấp cổ</p>
@@ -188,13 +190,16 @@
                         </div>
                         <div class="col-md-4">
                             <div class="item-img">
-                                <div class="show-img">
-                                    <a href="#">
-                                        <img src="images/boots-02.jpg" alt="" >
-                                    </a>
-                                </div>
-                                <div class="img-hover">
-                                    <a href="#"><img src="images/boots-02.jpg" alt=""></a>
+                                <div class="positionImg">
+                                    <div class="show-img">
+                                        <a href="#">
+                                            <img src="images/boots-02.jpg" alt="" >
+                                        </a>
+                                    </div>
+                                    <div class="img-hover">
+                                        <a href="#"><img src="images/boots-02.jpg" alt=""></a>
+                                    </div>
+                                    <button class="text-cart">Thêm vào giỏ hàng</button>
                                 </div>
                                 <a href="#">
                                     <div class="group-3">
@@ -208,6 +213,43 @@
                     </div>
 
                 </div>
+            </div>
+            <div class="form-signin" id=formLogin>
+                <form action="" class="form-signin-content" onsubmit="return LoginFunction()" >
+                    <div class="header-title clearfix">
+                        <span class="close-right" id="close">&times;</span>
+                        <h2 class="form-title">Login now</h2>
+                    </div>
+                    <div class="form-group clearfix">
+                        <input type="email" class="form-control" name="email" id="LoginEmail" placeholder="Email hoặc Số Điện Thoại">
+                        <span class="input-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <span class="thongbao" id="tb-account"></span>
+                    </div>
+                    <div class="form-group clearfix">
+                        <input type="password" name="pwd" class="form-control" id="LoginPwd" placeholder="Mật khẩu">
+                        <span class="input-icon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
+                        <span class="thongbao" id="tb-pwd"></span>
+                    </div>
+                    <div class="form-group form-check clearfix">
+                        <div class="checkbox ">
+                            <label class="form-check-label check-content">
+                                <input type="checkbox" class="form-check-input" name="remember">
+                                <span class="checkafter"></span>
+                                Remember Me
+                            </label>
+                        </div>
+                        <div class=" form-right ">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <div class="form-group form-center">
+                        <input type="submit" value="Đăng Nhập" class="btn btn-outline-primary" id="submitForm">
+                    </div>
+                    <div class="form-group loginForm-group">
+                        <p class="align-items-center">To Register New Account →  <a href="Signup.html" class="loginbtn btn">Tạo tài khoản</a></p>
+
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -292,23 +334,8 @@
     </div>
 </div>
 
-<script>
-    var filterTitle,i;
-    filterTitle=document.getElementsByClassName("filter-title");
-    for(i=0;i<filterTitle.length;i++){
-        filterTitle[i].addEventListener("click",function () {
-            this.classList.toggle("active");
-            var filterOption = this.nextElementSibling;
-            if(filterOption.style.maxHeight){
-                filterOption.style.maxHeight =null;
-                filterOption.style.opacity ="0";
-            }else{
-                filterOption.style.maxHeight += filterOption.scrollHeight+ "px";
-                filterOption.style.opacity = "1";
-            }
+<script src="js/myscript.js">
 
-        })
-    }
 </script>
 </body>
 </html>

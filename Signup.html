@@ -42,14 +42,13 @@
                                 <a href="Carts.html" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                             </div>
                             <div class="log-in col-md-10">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Đăng nhập</a>
-                                        <ul class="btn-dropdown">
-                                            <li> <a href="Login.html">Đăng nhập</a></li>
-                                            <li><a href="Signup.html">Tạo tài khoản</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <button class="dropdown Login">Đăng nhập</button>
+                                <div class="btn-content">
+                                    <ul>
+                                        <li class="Login"> Đăng nhập</li>
+                                        <li><a href="Signup.html">Tạo tài khoản</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -82,42 +81,116 @@
         </div>
         <hr>
     </div>
-    <div class="main">
+    <div class="main ">
         <div class="container">
-            <div class="form-signin">
-                <h2 class="form-title">Login now</h2>
-                <form action="" class="form-signin-content" novalidate>
-                    <div class="form-group mb-3">
-                        <input type="text" class="form-control" name="uname" id="uname" placeholder="Email hoặc Số Điện Thoại" required>
-                        <div class="input-group-append">go</div>
-                        <div class="invalid-feedback">Vui lòng điền tài khoản </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <input type="password" name="pswd" class="form-control" id="pwd" placeholder="Mật khẩu" required>
-                        <div class="input-group-append">go</div>
-                        <div class="invalid-feedback">Vui lòng điền mật khẩu </div>
-                    </div>
-                    <div class="form-group form-check">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="checkbox">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input" name="remember" required>Remember Me
-                                    </label>
+            <div class="form-signin" id=formLogin>
+<!--                <form action="" class="form-signin-content" onsubmit="return LoginFunction()" >-->
+<!--                    <div class="header-title clearfix">-->
+<!--                        <span class="close-right" id="close">&times;</span>-->
+<!--                        <h2 class="form-title">Login now</h2>-->
+<!--                    </div>-->
+<!--                    <div class="form-group clearfix">-->
+<!--                        <input type="email" class="form-control" name="email" id="LoginEmail" placeholder="Email hoặc Số Điện Thoại">-->
+<!--                        <span class="input-icon"><i class="fa fa-user" aria-hidden="true"></i></span>-->
+<!--                        <span class="thongbao" id="tb-account"></span>-->
+<!--                    </div>-->
+<!--                    <div class="form-group clearfix">-->
+<!--                        <input type="password" name="pwd" class="form-control" id="LoginPwd" placeholder="Mật khẩu">-->
+<!--                        <span class="input-icon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>-->
+<!--                        <span class="thongbao" id="tb-pwd"></span>-->
+<!--                    </div>-->
+<!--                    <div class="form-group form-check clearfix">-->
+<!--                        <div class="checkbox ">-->
+<!--                            <label class="form-check-label check-content">-->
+<!--                                <input type="checkbox" class="form-check-input" name="remember">-->
+<!--                                <span class="checkafter"></span>-->
+<!--                                Remember Me-->
+<!--                            </label>-->
+<!--                        </div>-->
+<!--                        <div class=" form-right ">-->
+<!--                            <a href="#">Forgot Password?</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="form-group form-center">-->
+<!--                        <input type="submit" value="Đăng Nhập" class="btn btn-outline-primary" id="submitForm">-->
+<!--                    </div>-->
+<!--                    <div class="form-group loginForm-group">-->
+<!--                        <p class="align-items-center">To Register New Account →  <a href="Signup.html" class="loginbtn btn">Tạo tài khoản</a></p>-->
+
+<!--                    </div>-->
+<!--                </form>-->
+            </div>
+            <div class="signup">
+                <form action="" onsubmit="return SignupFunction()">
+                    <div class="form-header">
+                        <h4 class="form-title">Đăng kí tài khoản</h4>
+                        <div class="form-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label>Họ:</label>
+                                        <input type="text" name="lname" id="lname" class="form-control" placeholder="Họ">
+                                        <span class="thongbao" id="signupLname"></span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label>Tên:</label>
+                                        <input type="text" name="fname" id="fname" class="form-control" placeholder="Tên">
+                                        <span class="thongbao" id="signupFname"></span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 form-right">
-                                <a href="#">Forgot Password?</a>
+                            <div class="form-group">
+                                <label>Địa chỉ email:</label>
+                                <input type="email" name="email" class="form-control" id="myEmail" placeholder="Email hoặc SĐT">
+                                <span class="thongbao" id="signupEmail"></span>
                             </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="Signup.html">Tạo tài khoản</a>
+                            <div class="form-group">
+                                <label>Mật khẩu:</label>
+                                <input type="password" class="form-control" name="pwd" id="myPwd"  placeholder="Mật khẩu">
+                                <span class="thongbao" id="signupPwd"></span>
                             </div>
-                            <div class="col-md-6 form-right">
-                                <button type="submit" class="btn btn-outline-primary">Đăng Nhập</button>
+                            <div class="form-group">
+                                <label>Xác thực mật khẩu:</label>
+                                <input type="password" class="form-control" name="repassword" id="rePwd"  placeholder="Mật khẩu">
+                                <span class="thongbao" id="signupRepwd"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Giới tính:</label>
+                                <div class="position-form">
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input type="radio" name="genders">
+                                                <span class="radioGender" id="male">Nam</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="radio" name="genders">
+                                                <span class="radioGender" id="female">Nữ</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <span class="thongbao" id="signupGender"></span>
+                            </div>
+                            <div class="form-group form-check clearfix">
+                                <div class="checkbox ">
+                                    <label class="form-check-label check-content">
+                                        <input type="checkbox" class="form-check-input" name="check">
+                                        <span class="checkafter" id="request"></span>
+                                        Tôi đồng ý các điều khoản trên
+                                    </label>
+                                    <span class="thongbao" id="signupRequest"></span>
+                                </div>
+                            </div>
+                            <div class="form-group form-center">
+                                <input type="submit" value="Đăng ký" class="btn btn-outline-primary" id="SignupForm">
+                            </div>
+                            <div class="form-group text-center">
+                                <a href="#" class="text-black-50">Tại sao đăng ký?</a>
                             </div>
                         </div>
                     </div>
@@ -205,5 +278,80 @@
         </div>
     </div>
 </div>
+
+<script src="js/myscript.js"></script>
+<script>
+    // var array=[];
+    // errorsObj ={
+    //     emptyLastname: "Vui lòng nhập Họ!",
+    //     emptyFirstname: "Vui lòng nhập Tên!",
+    //     emptyEmail: "Vui lòng nhập Email hoặc SĐT!",
+    //     emptyPassword: "Vui lòng nhập mật khẩu",
+    //     emptyRepwd: "Vui lòng nhập lại mật khẩu!",
+    //     emptyGender: "Vui lòng chộn giới tính!",
+    //     emptyRequest: "Hãy chọn điều khoản!"
+    // };
+    // function getElm(elm){
+    //     return document.getElementById(elm);
+    // }
+    // function SignupFunction(){
+    //     var isValid =false; // biến kiểm tra nếu có giá trị không nhập thì sẽ trả về true
+    //     var lastName =getElm('lname').value;
+    //     if(validateEmpty(lastName, 'signupLname', errorsObj.emptyLastname)){
+    //         isValid =true;
+    //     }
+    //     var firstName= getElm('fname').value;
+    //     if(validateEmpty(firstName, 'signupFname', errorsObj.emptyFirstname)){
+    //         isValid =true;
+    //     }
+    //     var email =getElm('myEmail').value;
+    //     if(validateEmpty(email, 'signupEmail', errorsObj.emptyEmail)){
+    //         isValid =true;
+    //     }
+    //     var pwd =getElm("myPwd").value;
+    //     if(validateEmpty(pwd, 'signupPwd', errorsObj.emptyPassword)){
+    //         isValid =true;
+    //     }
+    //     if(pwd.length <= 5){
+    //         getElm("signupPwd").innerHTML ="Password từ 6 ký tự trở lên";
+    //     }
+    //     var repwd =getElm("rePwd").value;
+    //     if(validateEmpty(repwd, "signupRepwd", errorsObj.emptyRepwd) || (repwd != pwd)){
+    //         isValid =true;
+    //     }
+    //     // var male =getElm("male").checked;
+    //     // var female =getElm("female").checked;
+    //     // if(validateEmpty(male, "signupGender", errorsObj.emptyGender)){
+    //     //     isValid =true;
+    //     // }
+    //     // else if(validateEmpty(female, "signupGender", errorsObj.emptyGender)){
+    //     //     isValid =true;
+    //     // }
+    //     // var request =getElm("request").checked;
+    //     // if(validateEmpty(request, "sigupRequest", errorsObj.emptyRequest)){
+    //     //     isValid =true;
+    //     // }
+    //     return false;
+    // }
+    // function validateEmpty(field, errorId, message){
+    //     if(field.trim().length === 0){
+    //         getElm(errorId).innerHTML = message;
+    //         return true;
+    //     }else{
+    //         getElm(errorId).innerHTML = "";
+    //         return false;
+    //     }
+    // }
+</script>
+<script type="text/javascript">
+    // $(document).ready(function signupFunction(){
+    //     var isValid =false;
+    //     var lastName =$('#lname').val();
+    //     if(lastName == ""){
+    //         $('#signupLname').html("Vui lòng nhập Họ!");
+    //         isValid =true;
+    //     }
+    // })
+</script>
 </body>
 </html>
