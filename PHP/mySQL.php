@@ -26,7 +26,6 @@ store_menu varchar(50),
 description varchar(100),
 price decimal(10,2),
 image text
-
 )";
 
 if(mysqli_query($con,$sql)){
@@ -36,3 +35,8 @@ if(mysqli_query($con,$sql)){
     mysqli_close($con);
     unset($sql);
 }
+$sql = "CREATE TABLE IF NOT EXISTS images(
+id int(20) primary key not null auto_increment, 
+product_img int(20),
+image text
+)";
