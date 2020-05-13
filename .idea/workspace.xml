@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ef2aca0-aed5-4a02-94bf-a74748cbb7ae" name="Default Changelist" comment="GDT-store">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/mySQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/mySQL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/images.sql" beforeDir="false" afterPath="$PROJECT_DIR$/js/images.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sqldata.sql" beforeDir="false" afterPath="$PROJECT_DIR$/js/sqldata.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/.idea/jsLinters/jshint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/.idea/tintuc_WEB.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/OwlCarousel2-2.3.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7 (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/_editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/_gitattributes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/_gitignore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/_hound.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/_travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/browser-bugs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/browser-features.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/core-team.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/glyphicons.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/sass-team.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/showcase.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_data/translations.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/ads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/badges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/breadcrumbs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/button-dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/button-groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/glyphicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/input-groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/jumbotron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/list-group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/navs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/page-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/panels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/progress-bars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/responsive-embed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/thumbnails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/components/wells.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/helpers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/responsive-utilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/sass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/css/type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/customizer-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/accessibility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/browser-device-support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/community.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/disabling-responsiveness.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/grunt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/third-party-support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/translations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/getting-started/whats-included.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/affix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/popovers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/tooltips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/js/transitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/customize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/getting-started.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_includes/nav/migration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_plugins/bridge.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_plugins/bugify.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_pug/customizer-nav.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/_pug/customizer-variables.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/brand/bootstrap-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/brand/bootstrap-punchout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/brand/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/css/docs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/css/docs.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/css/src/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/css/src/pygments-manni.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/flash/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/components.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/devices.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/expo-lyft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/expo-newsweek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/expo-riot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/expo-vogue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/img/sass-less.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/customize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/docs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/ie8-responsive-file-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/raw-files.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/src/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/src/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/Blob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/FileSaver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/anchor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/autoprefixer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/less.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/assets/js/vendor/uglify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/browser-bugs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/customize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/blog/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/carousel/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/cover/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/cover/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/grid/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/jumbotron-narrow/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/jumbotron-narrow/jumbotron-narrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/jumbotron/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/jumbotron/jumbotron.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/justified-nav/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/justified-nav/justified-nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/navbar-fixed-top/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/navbar-fixed-top/navbar-fixed-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/navbar-static-top/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/navbar-static-top/navbar-static-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/navbar/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/non-responsive/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/non-responsive/non-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/offcanvas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/offcanvas/offcanvas.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/offcanvas/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/dashboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/equal-height-columns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/grid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/jumbotron-narrow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/jumbotron.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/justified-nav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/navbar-fixed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/navbar-static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/navbar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/non-responsive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/offcanvas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/sign-in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/starter-template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/sticky-footer-navbar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/sticky-footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/screenshots/theme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/signin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/signin/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/starter-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/starter-template/starter-template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/sticky-footer-navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/sticky-footer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/sticky-footer/sticky-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/theme/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/tooltip-viewport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/tooltip-viewport/tooltip-viewport.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/examples/tooltip-viewport/tooltip-viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/getting-started.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/migration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/_jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/bs-commonjs-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/bs-glyphicons-data-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/bs-lessdoc-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/bs-raw-files-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/change-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/configBridge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/npm-shrinkwrap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/grunt/sauce_browsers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/_jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/_jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/_jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/phantom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/unit/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/vendor/qunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/vendor/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/affix-with-sticky-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/affix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tests/visual/tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/js/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/_csscomb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/_csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/nuget/MyGet.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/nuget/bootstrap.less.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/nuget/bootstrap.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/bootstrap-3.3.7/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/image/cuchoami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/image/h18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/image/h9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/image/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/ciné.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/congnghe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/doisong.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/fashion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/giaitri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/hocduong.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/kinhdoanh.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/music.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/sport.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/star.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/tintuc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/tvshow.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/php/xahoi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tintuc_WEB/tintuc.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1113032374">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="js" value="3" />
+          <entry key="php" value="12" />
+          <entry key="sql" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PHP" value="12" />
+          <entry key="SQL" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="55" />
+          <entry key="js" value="107" />
+          <entry key="php" value="1005" />
+          <entry key="sql" value="5315" />
+          <entry key="txt" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="55" />
+          <entry key="JavaScript" value="107" />
+          <entry key="PHP" value="997" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="SQL" value="5323" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bags.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="89" column="93" selection-start-line="89" selection-start-column="93" selection-end-line="89" selection-end-column="93" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#12093#12100#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/mySQL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/sqldata.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/images.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="113" column="70" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Home.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clothing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ao-06</find>
+      <find>ao-08</find>
+      <find>blazer-02</find>
+      <find>jacket-01</find>
+      <find>ao-07</find>
+      <find>jacket-03</find>
+      <find>jacket-10</find>
+      <find>jacket-09</find>
+      <find>jacket-05</find>
+      <find>jacket-08</find>
+      <find>ao-04</find>
+      <find>quan-05</find>
+      <find>quan-06</find>
+      <find>quan-03</find>
+      <find>quan-07</find>
+      <find>áo dạ</find>
+      <find>quan-01</find>
+      <find>vay-02</find>
+      <find>vay-07</find>
+      <find>vay-06</find>
+      <find>chanvay-02</find>
+      <find>chanvay-05</find>
+      <find>set</find>
+      <find>chanvay-06</find>
+      <find>boots</find>
+      <find>tui</find>
+      <find>khan</find>
+      <find>khan-03</find>
+      <find>cra</find>
+      <find>khan-01</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Detail/MiniSkirt-07.html" />
+        <option value="$PROJECT_DIR$/Signup.html" />
+        <option value="$PROJECT_DIR$/PHP/footer.php" />
+        <option value="$PROJECT_DIR$/PHP/header.php" />
+        <option value="$PROJECT_DIR$/js/sql.js" />
+        <option value="$PROJECT_DIR$/PHP/mySQL.php" />
+        <option value="$PROJECT_DIR$/js/images.sql" />
+        <option value="$PROJECT_DIR$/js/sqldata.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/OwlCarousel2-2.3.4/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="895" />
+    <option name="width" value="1045" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectId" id="1X7LAwQmPqXSCQ1shFYbRSmPpnZ" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GDTstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GDTstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GDTstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GDTstore" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GDTstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GDTstore" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\xampp\htdocs\Dev-PHP\Front-End" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ef2aca0-aed5-4a02-94bf-a74748cbb7ae" name="Default Changelist" comment="" />
+      <created>1580392046243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580392046243</updated>
+      <workItem from="1580392047668" duration="122000" />
+      <workItem from="1580392303125" duration="1062000" />
+      <workItem from="1580393420471" duration="35000" />
+      <workItem from="1580393498169" duration="12000" />
+      <workItem from="1580393569862" duration="1125000" />
+      <workItem from="1580395084561" duration="2230000" />
+      <workItem from="1580397350639" duration="91000" />
+      <workItem from="1580397468802" duration="21000" />
+      <workItem from="1580397714077" duration="797000" />
+      <workItem from="1580550018882" duration="3325000" />
+      <workItem from="1580574167146" duration="6000" />
+      <workItem from="1580715852418" duration="884000" />
+      <workItem from="1585464267559" duration="3769000" />
+      <workItem from="1585468276508" duration="6758000" />
+      <workItem from="1585641684917" duration="9311000" />
+      <workItem from="1585836130536" duration="3951000" />
+      <workItem from="1585840368412" duration="7122000" />
+      <workItem from="1585901630065" duration="189000" />
+      <workItem from="1585904854327" duration="455000" />
+      <workItem from="1585905400025" duration="3037000" />
+      <workItem from="1585993199446" duration="1523000" />
+      <workItem from="1586157184596" duration="8147000" />
+      <workItem from="1586247302062" duration="10169000" />
+      <workItem from="1586331166316" duration="3326000" />
+      <workItem from="1586336735369" duration="2675000" />
+      <workItem from="1587096972655" duration="621000" />
+      <workItem from="1587109323511" duration="623000" />
+      <workItem from="1589287959130" duration="17275000" />
+      <workItem from="1589343310944" duration="230000" />
+    </task>
+    <task id="LOCAL-00001" summary="GDTstore">
+      <created>1589288079515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589288079515</updated>
+    </task>
+    <task id="LOCAL-00002" summary="GDTstore">
+      <created>1589288136809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589288136809</updated>
+    </task>
+    <task id="LOCAL-00003" summary="GDT-store">
+      <created>1589290513503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589290513503</updated>
+    </task>
+    <task id="LOCAL-00004" summary="GDT-store">
+      <created>1589294496929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589294496929</updated>
+    </task>
+    <task id="LOCAL-00005" summary="GDT-store">
+      <created>1589294602354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589294602354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26045000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="716" y="0" width="836" height="832" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19072165" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32624114" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19072165" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32907802" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GDTstore" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="GDT-store" />
+    <option name="LAST_COMMIT_MESSAGE" value="GDT-store" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580397414518">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1580397414518" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587109945084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587109945084" />
+    <state x="885" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1587109891918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="885" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587109891918" />
+    <state x="723" y="212" key="svn.repositoryBrowser" timestamp="1585901722336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="723" y="212" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1585901722336" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/myscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detail/MiniSkirt-07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sql.js" />
+    <entry file="file://$PROJECT_DIR$/../tintuc_WEB/php/tintuc.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tintuc_WEB/php/sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tintuc_WEB/php/time.php" />
+    <entry file="file://$PROJECT_DIR$/tintuc_WEB/php/tintuc.php" />
+    <entry file="file://$PROJECT_DIR$/tintuc_WEB/php/sport.php" />
+    <entry file="file://$PROJECT_DIR$/tintuc_WEB/php/footer.php" />
+    <entry file="file://$PROJECT_DIR$/../../tintuc_WEB/php/doisong.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tintuc_WEB/php/doisong.php" />
+    <entry file="file://$PROJECT_DIR$/Bags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="89" column="93" selection-start-line="89" selection-start-column="93" selection-end-line="89" selection-end-column="93" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#12093#12100#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/mySQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/images.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="70" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clothing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sqldata.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
