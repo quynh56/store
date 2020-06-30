@@ -74,7 +74,7 @@
                             <li><a href="Belt.html">Thắt lưng</a></li>
                         </ul>
                     </li>
-                    <li><a href="AboutUs.html">About us</a></li>
+                    <li><a href="Blog.html">About us</a></li>
                     <li><a href="Contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -83,43 +83,7 @@
     </div>
     <div class="main ">
         <div class="container">
-            <div class="form-signin" id=formLogin>
-<!--                <form action="" class="form-signin-content" onsubmit="return LoginFunction()" >-->
-<!--                    <div class="header-title clearfix">-->
-<!--                        <span class="close-right" id="close">&times;</span>-->
-<!--                        <h2 class="form-title">Login now</h2>-->
-<!--                    </div>-->
-<!--                    <div class="form-group clearfix">-->
-<!--                        <input type="email" class="form-control" name="email" id="LoginEmail" placeholder="Email hoặc Số Điện Thoại">-->
-<!--                        <span class="input-icon"><i class="fa fa-user" aria-hidden="true"></i></span>-->
-<!--                        <span class="thongbao" id="tb-account"></span>-->
-<!--                    </div>-->
-<!--                    <div class="form-group clearfix">-->
-<!--                        <input type="password" name="pwd" class="form-control" id="LoginPwd" placeholder="Mật khẩu">-->
-<!--                        <span class="input-icon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>-->
-<!--                        <span class="thongbao" id="tb-pwd"></span>-->
-<!--                    </div>-->
-<!--                    <div class="form-group form-check clearfix">-->
-<!--                        <div class="checkbox ">-->
-<!--                            <label class="form-check-label check-content">-->
-<!--                                <input type="checkbox" class="form-check-input" name="remember">-->
-<!--                                <span class="checkafter"></span>-->
-<!--                                Remember Me-->
-<!--                            </label>-->
-<!--                        </div>-->
-<!--                        <div class=" form-right ">-->
-<!--                            <a href="#">Forgot Password?</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="form-group form-center">-->
-<!--                        <input type="submit" value="Đăng Nhập" class="btn btn-outline-primary" id="submitForm">-->
-<!--                    </div>-->
-<!--                    <div class="form-group loginForm-group">-->
-<!--                        <p class="align-items-center">To Register New Account →  <a href="Signup.html" class="loginbtn btn">Tạo tài khoản</a></p>-->
 
-<!--                    </div>-->
-<!--                </form>-->
-            </div>
             <div class="signup">
                 <form action="" onsubmit="return SignupFunction()">
                     <div class="form-header">
@@ -155,6 +119,11 @@
                                 <label>Xác thực mật khẩu:</label>
                                 <input type="password" class="form-control" name="repassword" id="rePwd"  placeholder="Mật khẩu">
                                 <span class="thongbao" id="signupRepwd"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Sinh ngày:</label>
+                                <input type="date" name="birthday" class="form-control" id="birthday" placeholder="Email hoặc SĐT">
+                                <span class="thongbao" id="signupBirthcday"></span>
                             </div>
                             <div class="form-group">
                                 <label>Giới tính:</label>
@@ -280,78 +249,9 @@
 </div>
 
 <script src="js/myscript.js"></script>
-<script>
-    // var array=[];
-    // errorsObj ={
-    //     emptyLastname: "Vui lòng nhập Họ!",
-    //     emptyFirstname: "Vui lòng nhập Tên!",
-    //     emptyEmail: "Vui lòng nhập Email hoặc SĐT!",
-    //     emptyPassword: "Vui lòng nhập mật khẩu",
-    //     emptyRepwd: "Vui lòng nhập lại mật khẩu!",
-    //     emptyGender: "Vui lòng chộn giới tính!",
-    //     emptyRequest: "Hãy chọn điều khoản!"
-    // };
-    // function getElm(elm){
-    //     return document.getElementById(elm);
-    // }
-    // function SignupFunction(){
-    //     var isValid =false; // biến kiểm tra nếu có giá trị không nhập thì sẽ trả về true
-    //     var lastName =getElm('lname').value;
-    //     if(validateEmpty(lastName, 'signupLname', errorsObj.emptyLastname)){
-    //         isValid =true;
-    //     }
-    //     var firstName= getElm('fname').value;
-    //     if(validateEmpty(firstName, 'signupFname', errorsObj.emptyFirstname)){
-    //         isValid =true;
-    //     }
-    //     var email =getElm('myEmail').value;
-    //     if(validateEmpty(email, 'signupEmail', errorsObj.emptyEmail)){
-    //         isValid =true;
-    //     }
-    //     var pwd =getElm("myPwd").value;
-    //     if(validateEmpty(pwd, 'signupPwd', errorsObj.emptyPassword)){
-    //         isValid =true;
-    //     }
-    //     if(pwd.length <= 5){
-    //         getElm("signupPwd").innerHTML ="Password từ 6 ký tự trở lên";
-    //     }
-    //     var repwd =getElm("rePwd").value;
-    //     if(validateEmpty(repwd, "signupRepwd", errorsObj.emptyRepwd) || (repwd != pwd)){
-    //         isValid =true;
-    //     }
-    //     // var male =getElm("male").checked;
-    //     // var female =getElm("female").checked;
-    //     // if(validateEmpty(male, "signupGender", errorsObj.emptyGender)){
-    //     //     isValid =true;
-    //     // }
-    //     // else if(validateEmpty(female, "signupGender", errorsObj.emptyGender)){
-    //     //     isValid =true;
-    //     // }
-    //     // var request =getElm("request").checked;
-    //     // if(validateEmpty(request, "sigupRequest", errorsObj.emptyRequest)){
-    //     //     isValid =true;
-    //     // }
-    //     return false;
-    // }
-    // function validateEmpty(field, errorId, message){
-    //     if(field.trim().length === 0){
-    //         getElm(errorId).innerHTML = message;
-    //         return true;
-    //     }else{
-    //         getElm(errorId).innerHTML = "";
-    //         return false;
-    //     }
-    // }
-</script>
+
 <script type="text/javascript">
-    // $(document).ready(function signupFunction(){
-    //     var isValid =false;
-    //     var lastName =$('#lname').val();
-    //     if(lastName == ""){
-    //         $('#signupLname').html("Vui lòng nhập Họ!");
-    //         isValid =true;
-    //     }
-    // })
+
 </script>
 </body>
 </html>

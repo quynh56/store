@@ -27,8 +27,8 @@ description varchar(100),
 price decimal(10,2),
 )";
 $sql = "CREATE TABLE IF NOT EXISTS images(
-id int(20) primary key not null auto_increment, 
-product_id int(20),
+product_id int(20) primary key not null auto_increment, 
+id int(20),
 color varchar (50),
 image text
 )";

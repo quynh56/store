@@ -1,11 +1,11 @@
 SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `images`;
 CREATE TABLE`images`(
-id int(20) unsigned  NOT NULL AUTO_INCREMENT,
-product_id int(20),
+product_id int(20) unsigned  NOT NULL AUTO_INCREMENT,
+id int(20),
 color varchar(50) DEFAULT NULL,
 image text,
-PRIMARY KEY(`id`)
+PRIMARY KEY(`product_id`)
 )ENGINE =InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET =utf8;
 INSERT INTO `images` VALUES ('1','1',NULL,'../images/chanvay-05.jpg');
 INSERT INTO `images` VALUES('2','2','charcoal green' ,'../images/vay-07.jpg');

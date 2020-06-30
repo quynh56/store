@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carts</title>
+    <title>About Us</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- <link rel="stylesheet" href="css/all.min.css"> -->
     <link rel="stylesheet" href="css/mystyle.css">
@@ -11,8 +11,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--    <script-->
+    <!--            src="https://code.jquery.com/jquery-3.3.1.js"-->
+    <!--            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="-->
+    <!--            crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/owl.carousel.min.js"></script>
     <style>
-
+        .blog-details a,.breacrumb-section a{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -136,8 +145,8 @@
                     <div class="col-lg-12">
                         <div class="breadcrumb-text product-more">
                             <a href="Home.html"><i class="fa fa-home"></i> Home</a>
-                            <a href="Clothing.html">Shop</a>
-                            <span>Shopping Cart</span>
+                            <a href="Carts.html">Cart</a>
+                            <span>Check Out</span>
                         </div>
                     </div>
                 </div>
@@ -146,141 +155,105 @@
         <!-- Breadcrumb Section Begin -->
 
         <!-- Shopping Cart Section Begin -->
-        <section class="shopping-cart spad">
+        <section class="checkout-section spad">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="cart-table">
-                            <table>
-                                <thead>
-                                <tr>
-                                    <th>Image</th>
-                                    <th class="p-name">Product Name</th>
-                                    <th>Price</th>
-                                    <th>Quantity</th>
-                                    <th>Total</th>
-                                    <th class="close-th"><i class="ti-close">&times;</i></th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td class="cart-pic first-row"><img src="images/blazer-01.2.jpg" alt=""></td>
-                                    <td class="cart-title first-row">
-                                        <h5>Blazer </h5>
-                                    </td>
-                                    <td class="p-price first-row">650.000</td>
-                                    <td class="qua-col first-row">
-                                        <div class="quantity">
-                                            <div class="pro-qty">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="total-price first-row">650.000</td>
-                                    <td class="close-td first-row"><i class="ti-close">&times;</i></td>
-                                </tr>
-                                <tr>
-                                    <td class="cart-pic"><img src="images/chanvay-07.jpg" alt=""></td>
-                                    <td class="cart-title">
-                                        <h5>skirt</h5>
-                                    </td>
-                                    <td class="p-price">270.000</td>
-                                    <td class="qua-col">
-                                        <div class="quantity">
-                                            <div class="pro-qty">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="total-price">270.000</td>
-                                    <td class="close-td"><i class="ti-close">&times;</i></td>
-                                </tr>
-                                <tr>
-                                    <td class="cart-pic"><img src="images/quan-08.jpg" alt=""></td>
-                                    <td class="cart-title">
-                                        <h5>Quần thể thao</h5>
-                                    </td>
-                                    <td class="p-price">290.000</td>
-                                    <td class="qua-col">
-                                        <div class="quantity">
-                                            <div class="pro-qty">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="total-price">290.000</td>
-                                    <td class="close-td"><i class="ti-close">&times;</i></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="cart-buttons">
-                                    <a href="#" class="primary-btn continue-shop">Continue shopping</a>
-                                    <a href="#" class="primary-btn up-cart">Update cart</a>
+                <form action="#" class="checkout-form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="checkout-content">
+                                <a href="#" class="content-btn">Click Here To Login</a>
+                            </div>
+                            <h4>Biiling Details</h4>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="fir">First Name<span>*</span></label>
+                                    <input type="text" id="fir">
                                 </div>
-                                <div class="discount-coupon">
-                                    <h6>Discount Codes</h6>
-                                    <form action="#" class="coupon-form">
-                                        <input type="text" placeholder="Enter your codes">
-                                        <button type="submit" class="site-btn coupon-btn">Apply</button>
-                                    </form>
+                                <div class="col-lg-6">
+                                    <label for="last">Last Name<span>*</span></label>
+                                    <input type="text" id="last">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="cun-name">Company Name</label>
+                                    <input type="text" id="cun-name">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="cun">Country<span>*</span></label>
+                                    <input type="text" id="cun">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="street">Street Address<span>*</span></label>
+                                    <input type="text" id="street" class="street-first">
+                                    <input type="text">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="zip">Postcode / ZIP (optional)</label>
+                                    <input type="text" id="zip">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="town">Town / City<span>*</span></label>
+                                    <input type="text" id="town">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="email">Email Address<span>*</span></label>
+                                    <input type="text" id="email">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="phone">Phone<span>*</span></label>
+                                    <input type="text" id="phone">
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="create-item">
+                                        <label for="acc-create">
+                                            Create an account?
+                                            <input type="checkbox" id="acc-create">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 offset-lg-4">
-                                <div class="proceed-checkout">
-                                    <ul>
-                                        <li class="subtotal">Subtotal <span>1.210.000</span></li>
-                                        <li class="cart-total">Total <span>1.210.000</span></li>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="checkout-content">
+                                <input type="text" placeholder="Enter Your Coupon Code">
+                            </div>
+                            <div class="place-order">
+                                <h4>Your Order</h4>
+                                <div class="order-total">
+                                    <ul class="order-table">
+                                        <li>Product <span>Total</span></li>
+                                        <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
+                                        <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
+                                        <li class="fw-normal">Combination x 1 <span>$120.00</span></li>
+                                        <li class="fw-normal">Subtotal <span>$240.00</span></li>
+                                        <li class="total-price">Total <span>$240.00</span></li>
                                     </ul>
-                                    <a href="#" class="proceed-btn">PROCEED TO CHECK OUT</a>
+                                    <div class="payment-check">
+                                        <div class="pc-item">
+                                            <label for="pc-check">
+                                                Cheque Payment
+                                                <input type="checkbox" id="pc-check">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="pc-item">
+                                            <label for="pc-paypal">
+                                                Paypal
+                                                <input type="checkbox" id="pc-paypal">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="order-btn">
+                                        <button type="submit" class="site-btn place-btn">Place Order</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="form-signin" id=formLogin>
-                <form action="" class="form-signin-content" onsubmit="return LoginFunction()" >
-                    <div class="header-title clearfix">
-                        <span class="close-right" id="close">&times;</span>
-                        <h2 class="form-title">Login now</h2>
-                    </div>
-                    <div class="form-group clearfix">
-                        <input type="email" class="form-control" name="email" id="LoginEmail" placeholder="Email hoặc Số Điện Thoại">
-                        <span class="input-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                        <span class="thongbao" id="tb-account"></span>
-                    </div>
-                    <div class="form-group clearfix">
-                        <input type="password" name="pwd" class="form-control" id="LoginPwd" placeholder="Mật khẩu">
-                        <span class="input-icon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
-                        <span class="thongbao" id="tb-pwd"></span>
-                    </div>
-                    <div class="form-group form-check clearfix">
-                        <div class="checkbox ">
-                            <label class="form-check-label check-content">
-                                <input type="checkbox" class="form-check-input" name="remember">
-                                <span class="checkafter"></span>
-                                Remember Me
-                            </label>
-                        </div>
-                        <div class=" form-right ">
-                            <a href="#">Forgot Password?</a>
-                        </div>
-                    </div>
-                    <div class="form-group form-center">
-                        <input type="submit" value="Đăng Nhập" class="btn btn-outline-primary" id="submitForm">
-                    </div>
-                    <div class="form-group loginForm-group">
-                        <p class="align-items-center">To Register New Account →  <a href="Signup.html" class="loginbtn btn">Tạo tài khoản</a></p>
-
                     </div>
                 </form>
             </div>
-        </div>
+        </section>
     </div>
     <div class="footer">
         <div class="container">
@@ -362,6 +335,5 @@
         </div>
     </div>
 </div>
-<script src="js/myscript.js"></script>
 </body>
 </html>

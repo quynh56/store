@@ -16,14 +16,14 @@
                     <div class="col-md-5 col-4">
                         <div class="header-right row">
                             <div class="cart col-md-2">
-                                <a href="Carts.html" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                <a href="../Carts.html" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                             </div>
                             <div class="log-in col-md-10">
                                 <button class="dropdown Login">Đăng nhập</button>
                                 <div class="btn-content">
                                     <ul>
                                         <li class="Login"> Đăng nhập</li>
-                                        <li><a href="Signup.html">Tạo tài khoản</a></li>
+                                        <li><a href="../Signup.html">Tạo tài khoản</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -33,26 +33,26 @@
             </div>
             <div id="myMenu" class="menu">
                 <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Clothing.html">Clothing</a>
+                    <li><a href="../Home.html">Home</a></li>
+                    <li><a href="../Clothing.html">Clothing</a>
                         <ul class="menu-child">
-                            <li><a href="Coats.html">Áo</a></li>
-                            <li><a href="trousers.html">Quần</a></li>
-                            <li><a href="skirt.html">Váy</a></li>
-                            <li><a href="MiniSkirt.html">Chân váy</a></li>
-                            <li><a href="Set.html">Set</a></li>
+                            <li><a href="../Coats.html">Áo</a></li>
+                            <li><a href="../trousers.html">Quần</a></li>
+                            <li><a href="../skirt.html">Váy</a></li>
+                            <li><a href="../MiniSkirt.html">Chân váy</a></li>
+                            <li><a href="../Set.html">Set</a></li>
                         </ul>
                     </li>
-                    <li><a href="Accessories.html">Accessories</a>
+                    <li><a href="../Accessories.html">Accessories</a>
                         <ul class="menu-child">
-                            <li><a href="Sneaker.html">Giày</a></li>
-                            <li><a href="Bags.html">Túi</a></li>
-                            <li><a href="Towel.html">Khăn</a></li>
-                            <li><a href="Belt.html">Thắt lưng</a></li>
+                            <li><a href="../Sneaker.html">Giày</a></li>
+                            <li><a href="../Bags.html">Túi</a></li>
+                            <li><a href="../Towel.html">Khăn</a></li>
+                            <li><a href="../Belt.html">Thắt lưng</a></li>
                         </ul>
                     </li>
-                    <li><a href="AboutUs.html">About us</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="../Blog.html">About us</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
