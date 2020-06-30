@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef2aca0-aed5-4a02-94bf-a74748cbb7ae" name="Default Changelist" comment="GDT-store">
-      <change afterPath="$PROJECT_DIR$/Detail/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/Pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check-out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-detail-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-detail-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-detail-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/blog-detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/next-blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/post-by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/prev-blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/recent-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/recent-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/recent-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blog/recent-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/Accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Belt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Belt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Carts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Carts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clothing.html" beforeDir="false" afterPath="$PROJECT_DIR$/Clothing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coats.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detail/MiniSkirt-07.html" beforeDir="false" afterPath="$PROJECT_DIR$/Detail/MiniSkirt-07.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniSkirt.html" beforeDir="false" afterPath="$PROJECT_DIR$/MiniSkirt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/mySQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/mySQL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Set.html" beforeDir="false" afterPath="$PROJECT_DIR$/Set.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sneaker.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sneaker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Towel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Towel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/images.sql" beforeDir="false" afterPath="$PROJECT_DIR$/js/images.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skirt.html" beforeDir="false" afterPath="$PROJECT_DIR$/skirt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trousers.html" beforeDir="false" afterPath="$PROJECT_DIR$/trousers.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -274,6 +256,17 @@
             <path>
               <item name="GDTstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="GDTstore" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GDTstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GDTstore" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GDTstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GDTstore" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -390,7 +383,7 @@
       <workItem from="1593084287154" duration="18000" />
       <workItem from="1593331282204" duration="1369000" />
       <workItem from="1593488608061" duration="23274000" />
-      <workItem from="1593524295050" duration="13405000" />
+      <workItem from="1593524295050" duration="13646000" />
     </task>
     <task id="LOCAL-00001" summary="GDTstore">
       <created>1589288079515</created>
@@ -434,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589343672865</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GDT-store">
+      <created>1593537803431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593537803431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98624000" />
+    <option name="totallyTimeSpent" value="98865000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -453,12 +453,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13624161" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13624161" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32624114" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32904148" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49932885" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -497,6 +497,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -533,22 +543,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="GDT-store" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580397414518">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1580397414518" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587109945084">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587109945084" />
-    <state x="885" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1587109891918">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="885" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587109891918" />
-    <state x="723" y="212" key="svn.repositoryBrowser" timestamp="1585901722336">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="723" y="212" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1585901722336" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="549" y="167" key="FileChooserDialogImpl" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state x="885" y="240" key="com.intellij.ide.util.TipDialog" />
+    <state x="885" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="723" y="212" key="svn.repositoryBrowser" />
+    <state x="723" y="212" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
