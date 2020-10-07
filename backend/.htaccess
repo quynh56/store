@@ -1,0 +1,5 @@
+RewriteEngine ON
+RewriteRule home ../frontend/index.php
+RewriteRule dang-nhap index.php?controller=login&action=login
+RewriteRule dang-ky index.php?controller=login&action=signup
+RewriteRule dang-xuat index.php?controller=login&action=logout

@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Quynh Dang
- * Date: 7/1/2020
- * Time: 12:07 AM
- */
+class Database{
+    const DB_DSN="mysql:host=localhost;port=3306;dbname=gdt_store;charset=utf8";
+    const DB_USERNAME='root';
+    const DB_PASSWORD='';
+}
