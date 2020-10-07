@@ -98,4 +98,14 @@ products.category_id =categories.id WHERE products.id=$id");
         $product=$obj_select->fetch(PDO::FETCH_ASSOC);
         return $product;
     }
+
+//    public $cate_id=$_SESSION['menu']['id'];
+//    public function sub_cids($cate_id,$cids=0){
+//        global $cids;
+//        $obj_select=$this->con->prepare("select * from categories where parent_id=$cate_id");
+//        $obj_select->execute();
+//        $row=$obj_select->fetchAll(PDO::FETCH_ASSOC);
+//        $cids[]=
+//
+//    }
 }

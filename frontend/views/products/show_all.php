@@ -17,6 +17,10 @@ echo "</pre>";
                         <div class="filter-option">
                             <ul>
                                 <?php foreach ($categories as $cate):
+                                    $category_name=$cate['name'];
+                                    $categry_slug=Helper::getSlug($category_name);
+                                    $category_id=$cate['id'];
+                                    $url_category="showList/$categry_slug/$category_id";
                                     $checked='';
                                     if(isset($_POST['category'])){
                                         if(in_array($cate['id'],$_POST['category'])){
@@ -25,10 +29,11 @@ echo "</pre>";
                                     }
                                     ?>
                                     <?php if($cate['type_product']==0 &&$cate['type']==0):?>
-                                    <li>
-                                        <input type="checkbox"  name="category[]" value="<?php echo $cate['id']?>" <?php echo $checked?>> <?php echo $cate['name']?>
-                                        <!--                                    <label for="size S" class="check-content">--><?php //echo $category['name']?><!--<span class="counter"></span></label>-->
-                                    </li>
+                                    <?php if ($cate['parent_id']!=0):?>
+                                        <li>
+                                            <a href="<?php echo $url_category?>"><?php echo $cate['name']?></a>
+                                        </li>
+                                    <?php endif;?>
                                 <?php endif;?>
                                 <?php endforeach;?>
                             </ul>
@@ -39,30 +44,35 @@ echo "</pre>";
                         <h2 class="filter-title">Accessories</h2>
                         <div class="filter-option">
                             <ul>
-                                <?php foreach ($categories as $cate):?>
+                                <?php foreach ($categories as $cate):
+                                    $category_name=$cate['name'];
+                                    $categry_slug=Helper::getSlug($category_name);
+                                    $category_id=$cate['id'];
+                                    $url_category="showList/$categry_slug/$category_id";?>
                                     <?php if($cate['type_product']==1&&$cate['type']==0):?>
+                                    <?php if ($cate['parent_id']!=0):?>
                                         <li>
-                                            <input type="checkbox" id="size S" name="category[]" value="<?php echo $cate['id']?>">
-                                            <label for="size S" class="check-content"><?php echo $cate['name']?><span class="counter"></span></label>
+                                            <a href="<?php echo $url_category?>"><?php echo $cate['name']?></a>
                                         </li>
                                     <?php endif;?>
+                                <?php endif;?>
                                 <?php endforeach;?>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="group-filter">
-                        <h2 class="filter-title">Color </h2>
-                        <div class="filter-option">
-                            <ul>
-                                <li id="clBlack"><span class="choose-color black"></span>Đen <span class="counter"></span></li>
-                                <li id="clBeige"><span class="choose-color beige"></span> Be <span class="counter"></span></li>
-                                <li id="clBlue"><span class="choose-color blue"></span> Xanh <span class="counter"></span></li>
-                                <li id="clWhite"><span class="choose-color white"></span> Trắng <span class="counter"></span></li>
-                                <li id="clOrange"><span class="choose-color orange"></span> Cam <span class="counter"></span></li>
-                            </ul>
-                        </div>
-                    </div>
+<!--                    <div class="group-filter">-->
+<!--                        <h2 class="filter-title">Color </h2>-->
+<!--                        <div class="filter-option">-->
+<!--                            <ul>-->
+<!--                                <li id="clBlack"><span class="choose-color black"></span>Đen <span class="counter"></span></li>-->
+<!--                                <li id="clBeige"><span class="choose-color beige"></span> Be <span class="counter"></span></li>-->
+<!--                                <li id="clBlue"><span class="choose-color blue"></span> Xanh <span class="counter"></span></li>-->
+<!--                                <li id="clWhite"><span class="choose-color white"></span> Trắng <span class="counter"></span></li>-->
+<!--                                <li id="clOrange"><span class="choose-color orange"></span> Cam <span class="counter"></span></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <div class="group-filter">
                         <h2 class="filter-title">Size</h2>
                         <div class="filter-option">

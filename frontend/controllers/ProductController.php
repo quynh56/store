@@ -32,14 +32,17 @@ class ProductController extends Controller{
 //        $str_size='';
 //        $str_color='';
         if (isset($_GET['search'])){
-            if (isset($_GET['controller'])){
-                $_GET['controller']='product';
-            }elseif (isset($_GET['action'])){
-                $_GET['action']='showAll';
-            }
             $params['search']=$_GET['search'];
-
         }
+//        if (isset($_GET['search'])){
+//            if (isset($_GET['controller'])){
+//                $_GET['controller']='product';
+//            }elseif (isset($_GET['action'])){
+//                $_GET['action']='showAll';
+//            }
+//            $params['search']=$_GET['search'];
+//
+//        }
         $id=$_SESSION['menu']['id'];
         if (isset($_SESSION['menu'])){
             $params['id']=$id;
@@ -102,26 +105,26 @@ class ProductController extends Controller{
         $id=$_SESSION['menu']['id'];
         $category_model=new Category();
         $categories=$category_model->getMenuAll();
-        $parent_id=0;
-        $newString='';
-        $str_parent='';
-        foreach ($categories as $cate){
-            if ($cate['parent_id']==$parent_id){
-                $str_parent .=$cate['id'] .',';
-                $newParent = $cate['id'];
-                print_r($newParent);
-                foreach ($categories as $value){
-                    if ($value['parent_id']==$newParent){
-                        $newString .=$value['id'] .",";
-                    }
-                }
-            }
-
-        }
-        $newString= rtrim($newString,',');
-        $str_parent=rtrim($str_parent,',');
-        $newString="($newString)";
-
+//        $parent_id=0;
+//        $newString='';
+//        $str_parent='';
+//        foreach ($categories as $cate){
+//            if ($cate['parent_id']==$parent_id){
+//                $str_parent .=$cate['id'] .',';
+//                $newParent = $cate['id'];
+//                print_r($newParent);
+//                foreach ($categories as $value){
+//                    if ($value['parent_id']==$newParent){
+//                        $newString .=$value['id'] .",";
+//                    }
+//                }
+//            }
+//
+//        }
+//        $newString= rtrim($newString,',');
+//        $str_parent=rtrim($str_parent,',');
+//        $newString="($newString)";
+//
 //        echo $newString, $str_parent;
 
         $product_model=new Product();
@@ -131,8 +134,8 @@ class ProductController extends Controller{
             'total'=>$total,
             'limit'=>$limit,
             'id'=>$id,
-            'newString'=>$newString,
-            'str_parent'=>$str_parent,
+//            'newString'=>$newString,
+//            'str_parent'=>$str_parent,
             'controller'=>'product',
             'action'=>'show_list',
             'full_mode'=>false,

@@ -1,7 +1,7 @@
 <?php
 require_once "helpers/Helper.php";
 echo "<pre>";
-//print_r($_GET);
+print_r($_GET);
 echo "</pre>";
 ?>
 <div class="header">
@@ -17,8 +17,10 @@ echo "</pre>";
                 <div class="col-md-4 col-4">
                     <form action="" method="get">
                         <div class="search">
+                            <?php if (!isset($_GET['controller'])&&!isset($_GET['action'])):?>
                             <input type="hidden" name="controller" value="product" />
                             <input type="hidden" name="action" value="showAll" />
+                            <?php endif;?>
                             <input type="text" id="mySearch" name="search" placeholder="Search..." value="<?php echo isset($_GET['search'])?$_GET['search']:'' ?>">
                             <button type="submit" class="icon-search" ><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
