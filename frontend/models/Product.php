@@ -3,40 +3,39 @@ require_once "models/Model.php";
 class Product extends Model{
 //    public $str_search='';
     public $id='';
+    public $id_parent='';
+    public $str_search='';
     public function __construct()
     {
         parent::__construct();
-//        if (isset($_GET['search']) &&!$_GET['search']){
-//            $search=$_GET['search'];
-//            $this->str_search =" AND products.`name` LIKE '%$search%' OR (categories.`name` LIKE '%$search%')";
-//        }
-        if (isset($_SESSION['menu']['id'])){
-            $this->id=" AND products.`category_id`=".$_SESSION['menu']['id'] ;
+        if (isset($_GET['search']) &&!empty($_GET['search'])){
+            $search=$_GET['search'];
+            $this->str_search =" AND products.`name` LIKE '%$search%' OR (categories.`name` LIKE '%$search%')";
+        }
+        if (isset($_SESSION['menu'])){
+            if (isset($_SESSION['menu']['id'])){
+                $cateid=$_SESSION['menu']['id'] ;
+                $this->id =" AND products.`category_id`= $cateid";
+            }
+            if (isset($_SESSION['menu']['parent_id'])&& $_SESSION['menu']['parent_id']==0){
+                $menuParent=$_SESSION['menu']['menuParent'];
+                $this->id =" AND $menuParent ";
+            }
         }
     }
     public function getAll($params=[]){
-        $str_search='';
-//        $str_category_id='';
 //        $str_price='';
+        $search_Str='';
         $start=isset($params['start'] )?$params['start']:0;
         $limit=isset($params['limit']) ? $params['limit'] : 1000;
-//        if(isset($params['str_category_id'])){
-//            $str_category_id=" AND ".$params['str_category_id'];
-//        }
+
 //        if(isset($params['str_price'])){
 //            $str_price=" AND ".$params['str_price'];
 //        }
-//        if (isset($params['id'])){
-//            $id=" AND products.`category_id` = ".$params['id'];
-//        }
-        if(isset($params['search'])&&!empty($params['search'])){
-            $search=$params['search'];
-            $str_search =" AND products.`name` LIKE '%$search%' OR (categories.`name` LIKE '%$search%')";
-        }
         $obj_select = $this->con
             ->prepare("SELECT products.*, categories.name AS category_name FROM products
                         INNER JOIN categories ON categories.id = products.category_id
-                        WHERE categories.status =1 AND products.status=1 $str_search
+                        WHERE categories.status =1 AND products.status=1 $this->str_search $this->id
                         ORDER BY products.created_at DESC LIMIT $start, $limit
                         ");
         $obj_select->execute();
@@ -44,20 +43,17 @@ class Product extends Model{
 
         return $products;
     }
-//
+
     public function getAllPagination($arr_params)
     {
         $limit = $arr_params['limit'];
         $page = $arr_params['page'];
         $start = ($page - 1) * $limit;
-        $str_parent='';
-        if (isset($arr_params['newString'])){
-            $str_parent =" AND categories.parent_id IN ". $arr_params['str_parent'];
-        }
+
         $obj_select = $this->con
             ->prepare("SELECT products.*, categories.name AS category_name,categories.parent_id as menu_parent FROM products 
                         INNER JOIN categories ON categories.id = products.category_id
-                        WHERE categories.status =1 AND products.status=1 $this->id 
+                        WHERE categories.status =1 AND products.status=1 $this->str_search  $this->id
                         ORDER BY products.updated_at DESC, products.created_at DESC
                         LIMIT $start, $limit
                         ");
@@ -99,13 +95,4 @@ products.category_id =categories.id WHERE products.id=$id");
         return $product;
     }
 
-//    public $cate_id=$_SESSION['menu']['id'];
-//    public function sub_cids($cate_id,$cids=0){
-//        global $cids;
-//        $obj_select=$this->con->prepare("select * from categories where parent_id=$cate_id");
-//        $obj_select->execute();
-//        $row=$obj_select->fetchAll(PDO::FETCH_ASSOC);
-//        $cids[]=
-//
-//    }
 }

@@ -7,7 +7,6 @@ require_once "models/Color.php";
 require_once "models/Pagination.php";
 require_once "models/Image.php";
 require_once "helpers/Helper.php";
-require_once "models/MenuTree.php";
 class ProductController extends Controller{
     public function addlist(){
         $id=$_GET['id'];
@@ -33,28 +32,16 @@ class ProductController extends Controller{
 //        $str_color='';
         if (isset($_GET['search'])){
             $params['search']=$_GET['search'];
+//            $_SESSION['menu']=$_GET['search'];
         }
-//        if (isset($_GET['search'])){
-//            if (isset($_GET['controller'])){
-//                $_GET['controller']='product';
-//            }elseif (isset($_GET['action'])){
-//                $_GET['action']='showAll';
-//            }
-//            $params['search']=$_GET['search'];
-//
-//        }
-        $id=$_SESSION['menu']['id'];
-        if (isset($_SESSION['menu'])){
-            $params['id']=$id;
+        $id='';
+        if (isset($_SESSION['menu']['id'])){
+            $id=$_SESSION['menu']['id'];
+            if (isset($_SESSION['menu'])){
+                $params['id']=$id;
+            }
         }
         if(isset($_POST['filter'])){
-            if(isset($_POST['category'])){
-                $str_category_id=implode(',',$_POST['category']);
-                $str_category_id =" ($str_category_id)";
-                $str_category_id="products.category_id IN $str_category_id";
-                $params['str_category_id']=$str_category_id;
-            }
-//            var_dump($str_category_id);
             if(isset($_POST['price'])){
                 switch ($_POST['price']){
                     case 1: $str_price =" OR products.price < 200000";break;
@@ -67,6 +54,7 @@ class ProductController extends Controller{
 //                var_dump($str_price);
             }
         }
+
         $category_model=new Category();
         $categories=$category_model->getMenuAll();
         $product_model=new Product();
@@ -105,28 +93,19 @@ class ProductController extends Controller{
         $id=$_SESSION['menu']['id'];
         $category_model=new Category();
         $categories=$category_model->getMenuAll();
-//        $parent_id=0;
-//        $newString='';
-//        $str_parent='';
-//        foreach ($categories as $cate){
-//            if ($cate['parent_id']==$parent_id){
-//                $str_parent .=$cate['id'] .',';
-//                $newParent = $cate['id'];
-//                print_r($newParent);
-//                foreach ($categories as $value){
-//                    if ($value['parent_id']==$newParent){
-//                        $newString .=$value['id'] .",";
-//                    }
-//                }
-//            }
-//
-//        }
-//        $newString= rtrim($newString,',');
-//        $str_parent=rtrim($str_parent,',');
-//        $newString="($newString)";
-//
-//        echo $newString, $str_parent;
-
+        $menuParent='';
+        if ($_SESSION['menu']['parent_id']==0){
+            $newParent=$_SESSION['menu']['id'];
+            foreach ($categories as $value){
+                if ($value['parent_id']==$newParent){
+                    $menuParent .=$value['id'] .",";
+                }
+            }
+        }
+        $menuParent= rtrim($menuParent,',');
+        $menuParent="($menuParent)";
+        $menuParent = "products.category_id IN $menuParent";
+        $_SESSION['menu']['menuParent']=$menuParent;
         $product_model=new Product();
         $total=$product_model->countTotal();
         $limit=9;
@@ -134,8 +113,6 @@ class ProductController extends Controller{
             'total'=>$total,
             'limit'=>$limit,
             'id'=>$id,
-//            'newString'=>$newString,
-//            'str_parent'=>$str_parent,
             'controller'=>'product',
             'action'=>'show_list',
             'full_mode'=>false,
@@ -153,35 +130,7 @@ class ProductController extends Controller{
         ]);
         require_once ('views/layouts/main.php');
     }
-//    public function showAll(){
-//        $product_model=new Product();
-//        $count_total=$product_model->countTotal();
-//        $query_additional='';
-//        if (isset($_GET['search'])){
-//            $query_additional .= '&search=' .$_GET['search'];
-//        }
-//        $arr_params=[
-//            'total'=>$count_total,
-//            'limit'=>9,
-//            'query_string'=>'page',
-//            'controller'=>'product',
-//            'action'=>'showAll',
-//            'full_mode'=>false,
-//            'query_additional'=>$query_additional,
-//            'page'=>isset($_GET['page'])?$_GET['page']:1
-//        ];
-//        $products=$product_model->getAllPagination($arr_params);
-//        $pagination=new Pagination($arr_params);
-//        $pages=$pagination->getPagination();
-//        $category_model=new Category();
-//        $categories=$category_model->getAll();
-//        $this->content=$this->render('views/products/show_all.php',[
-//            'categories'=>$categories,
-//            'products'=>$products,
-//            'pages'=>$pages
-//        ]);
-//        require_once ('views/layouts/main.php');
-//    }
+
     public function detail(){
         $id=$_GET['id'];
         $product_model=new Product();

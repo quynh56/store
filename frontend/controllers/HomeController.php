@@ -9,6 +9,7 @@ require_once "controllers/Controller.php";
 require_once "models/Product.php";
 require_once "models/Slide.php";
 require_once "models/Category.php";
+require_once "helpers/Helper.php";
 require_once "../backend/models/Pagination.php";
 class HomeController extends Controller{
     public function index(){
@@ -48,4 +49,6 @@ class HomeController extends Controller{
         $this->content=$this->render('views/homes/index.php',$output);
         require_once 'views/layouts/main.php';
     }
+
+
 }

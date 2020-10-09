@@ -8,6 +8,7 @@
 class Controller{
     public $error;
     public $content;
+    public $menu;
     public function render($file,$variable=[]){
         extract($variable);
         ob_start();
