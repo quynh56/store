@@ -158,7 +158,7 @@ echo "</pre>";
 //                $newString =str_replace('</a><ul>','</a><ul class="menu-child">',$newString);
                 echo $newString;
                 ?>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
 
         </div>

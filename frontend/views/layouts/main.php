@@ -56,6 +56,7 @@
             /*width: 0;*/
             /*height: 0;*/
         /*}*/
+
     </style>
 
 </head>
@@ -323,11 +324,11 @@
             var filterOption = this.nextElementSibling;
             if(filterOption.style.display =="block"){
                 filterOption.style.display ="none";
-                filterOption.style.opacity ="0";
+                // filterOption.style.opacity ="0";
             }else{
                 // filterOption.style.maxHeight += filterOption.scrollHeight+ "px";
                 filterOption.style.display ="block";
-                filterOption.style.opacity = "1";
+                // filterOption.style.opacity = "1";
             }
         })
     }

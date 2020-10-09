@@ -749,7 +749,7 @@ button.owl-next:hover span, button.owl-prev:hover span{
     text-align: center;
     font-family:playfairdisplay;
 }
-.form-group input[type='text'], .form-group input[type='password']{
+.form-signin .form-group input[type='text'], .form-signin .form-group input[type='password']{
     width: 85%;
     float:left;
     border:1px solid #01C7D8;
@@ -891,18 +891,18 @@ div.form-center{
 .logo-login{width: 30%}
 .footer-login{margin:0;}
 .form-right a{float:right}
-.form-right a , .form-group a.loginbtn{
+.form-right a , .form-signin .form-group a.loginbtn{
     color:#01C7D8;
     text-decoration:none;
 }
 
-.form-group .loginbtn{
+.form-signin .form-group .loginbtn{
     border: 1px solid white;
     border-radius: 0;
     padding: 8px 16px;
     margin-left:5px
 }
-.form-group a.loginbtn:hover{border-color:#00c6d7}
+.form-signin .form-group a.loginbtn:hover{border-color:#00c6d7}
 
 .loginForm-group{display:inline-block}
 .loginForm-group .align-items-center{display:flex;}
@@ -946,7 +946,7 @@ div.form-center{
 .check-content input:checked ~ .checkafter:after{
     display:block;
 }
-.form-group .thongbao{
+.form-signin.form-group .thongbao, .signup .form-group .thongbao{
     color:red;
     font-size:13px;
 }
@@ -3111,4 +3111,74 @@ h1, h2, h3, h4, h5, h6 {
 }
 .img-option {
     display: inline-block;
+}
+
+/*CONTACT*/
+.contact .column{margin:0;}
+.contact{
+    position:relative;
+    height:100%;
+}
+.myFormConact{
+    position:absolute;
+    top:25px;
+    left:25px;
+    max-width:782px;
+    background:white;
+    padding:25px;
+}
+.myFormContact label,.leave-cmt label, .post-icon span{
+    float:left;
+    border:1px solid #ccc;
+    border-right:none;
+    width:60px;
+    line-height:60px;
+    text-align:center;
+    color:#1aa5a3;
+    position:relative;
+    margin-bottom:10px;
+}
+.myForm label::after,.leave-cmt label::after ,.post-icon span::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:30px;
+    height:30px;
+    border:1px solid #1aa5a3;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+.myFormContact input , .leave-cmt input{
+    float:left;
+    width:80%;
+    border:1px solid #ccc;
+    padding:18px;
+    margin-bottom:10px;
+}
+
+.myFormConact textarea , .leave-cmt textarea{
+    width:100%;
+    height:135px;
+    padding:25px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+}
+.myFormConact .form-btn{
+    width:100%;
+    border:none;
+    color:white;
+    text-align: center;
+    background:#1aa5a3;
+}
+
+.myFormContact {
+    position: absolute;
+    top: 20%;
+    padding:30px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    left: 25px;
+    right: 25px;
 }

@@ -12,4 +12,5 @@ RewriteRule login ../backend/index.php?controller=login&action=login
 RewriteRule signup ../backend/index.php?controller=login&action=signup
 RewriteRule dang-xuat ../backend/index.php?controller=login&action=logout
 RewriteRule home index.php
+RewriteRule contact index.php?controller=contact
 RewriteRule thank index.php?controller=payment&action=thank
