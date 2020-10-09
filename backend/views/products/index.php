@@ -32,7 +32,7 @@ echo "</pre>";
             </select>
         </div>
         <div class="form-group">
-            <input type="submit" value="Search" name="search" class="btn btn-primary">
+            <button type="submit" value="Search" name="search" class="btn btn-primary">search</button>
             <a href="index.php?controller=product&action=index" class="btn color-gray btn-default border-dark">Cancel</a>
         </div>
     </form>
