@@ -90,11 +90,17 @@ class ProductController extends Controller{
         if (isset($_GET['search'])){
             $query_additional .= '&search=' .$_GET['search'];
         }
-        $id=$_SESSION['menu']['id'];
+        $id='';
+        if (isset($_SESSION['menu']['id'])){
+            $id=$_SESSION['menu']['id'];
+            if (isset($_SESSION['menu'])){
+                $param_pagination['id']=$id;
+            }
+        }
         $category_model=new Category();
         $categories=$category_model->getMenuAll();
         $menuParent='';
-        if ($_SESSION['menu']['parent_id']==0){
+        if (isset($_SESSION['menu']['id'])&&$_SESSION['menu']['parent_id']==0){
             $newParent=$_SESSION['menu']['id'];
             foreach ($categories as $value){
                 if ($value['parent_id']==$newParent){
