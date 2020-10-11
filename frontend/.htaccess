@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule chi-tiet-san-pham/(.*)/([0-9]{1,}) index.php?controller=product&action=detail&slug=$1&id=$2
-RewriteRule listProduct/(.*) index.php?controller=product&action=show_list&slug=$1
+RewriteRule listProduct/(.*) index.php?controller=product&action=showAll&slug=$1
 RewriteRule showList/(.*)/([0-9]{1,}) index.php?controller=product&action=addlist&slug=$1&id=$2
 #RewriteRule danh-sach-san-pham index.php?controller=product&action=showAll
 RewriteRule them-vao-gio-hang/([0-9]{1,}) index.php?controller=cart&action=add&id=$1

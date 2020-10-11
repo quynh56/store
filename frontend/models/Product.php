@@ -24,18 +24,21 @@ class Product extends Model{
         }
     }
     public function getAll($params=[]){
-//        $str_price='';
-        $search_Str='';
+        $str_price='';
+        $search_param='';
         $start=isset($params['start'] )?$params['start']:0;
         $limit=isset($params['limit']) ? $params['limit'] : 1000;
-
-//        if(isset($params['str_price'])){
-//            $str_price=" AND ".$params['str_price'];
-//        }
+        if (isset($params['search'])&&!empty($params['search'])){
+            $name=$params['search'];
+            $search_param =" AND products.`name` LIKE '%$name%' OR (categories.`name` LIKE '%$name%')";
+        }
+        if(isset($params['str_price'])){
+            $str_price=" AND ".$params['str_price'];
+        }
         $obj_select = $this->con
             ->prepare("SELECT products.*, categories.name AS category_name FROM products
                         INNER JOIN categories ON categories.id = products.category_id
-                        WHERE categories.status =1 AND products.status=1 $this->str_search $this->id
+                        WHERE categories.status =1 AND products.status=1 $search_param $this->id $str_price
                         ORDER BY products.created_at DESC LIMIT $start, $limit
                         ");
         $obj_select->execute();

@@ -32,7 +32,6 @@ class ProductController extends Controller{
 //        $str_color='';
         if (isset($_GET['search'])){
             $params['search']=$_GET['search'];
-//            $_SESSION['menu']=$_GET['search'];
         }
         $id='';
         if (isset($_SESSION['menu']['id'])){
@@ -57,6 +56,19 @@ class ProductController extends Controller{
 
         $category_model=new Category();
         $categories=$category_model->getMenuAll();
+        $menuParent='';
+        if (isset($_SESSION['menu']['id'])&&$_SESSION['menu']['parent_id']==0){
+            $newParent=$_SESSION['menu']['id'];
+            foreach ($categories as $value){
+                if ($value['parent_id']==$newParent){
+                    $menuParent .=$value['id'] .",";
+                }
+            }
+        }
+        $menuParent= rtrim($menuParent,',');
+        $menuParent="($menuParent)";
+        $menuParent = "products.category_id IN $menuParent";
+        $_SESSION['menu']['menuParent']=$menuParent;
         $product_model=new Product();
         $total=$product_model->countTotal();
         $page=1;
@@ -74,6 +86,7 @@ class ProductController extends Controller{
         $params['limit']=$limit;
         $params['start']=$start;
 //        print_r($param_pagination);
+//        print_r($params);
         $products=$product_model->getAll($params);
         $pagination=new Pagination($param_pagination);
         $pages=$pagination->getPagination();

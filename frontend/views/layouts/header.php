@@ -1,6 +1,7 @@
 <?php
 require_once "helpers/Helper.php";
 echo "<pre>";
+//print_r($_GET);
 //print_r($_SESSION);
 echo "</pre>";
 ?>
@@ -18,8 +19,8 @@ echo "</pre>";
                     <form action="" method="get">
                         <div class="search">
                             <input type="hidden" name="controller" value="product" />
-                            <input type="hidden" name="action" value="show_list" />
-                            <input type="text" id="mySearch" name="search" placeholder="Search..." value="<?php echo isset($_GET['title'])?$_GET['title']:'' ?>">
+                            <input type="hidden" name="action" value="showAll" />
+                            <input type="search" id="mySearch" name="search" placeholder="Search..." value="<?php echo isset($_GET['title'])?$_GET['title']:'' ?>">
                             <button type="submit" class="icon-search" ><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
                     </form>

@@ -74,23 +74,23 @@ echo "</pre>";
 <!--                        </div>-->
 <!--                    </div>-->
                     <div class="group-filter">
-                        <h2 class="filter-title">Size</h2>
-                        <div class="filter-option">
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="size S" name="size[]">
-                                    <label for="size S" class="check-content">size S <span class="counter"></span></label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="size M" name="size[]">
-                                    <label for="size M" class="check-content">size M <span class="counter"></span></label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="size L" name="size[]">
-                                    <label for="size L" class="check-content">size L <span class="counter"></span></label>
-                                </li>
-                            </ul>
-                        </div>
+<!--                        <h2 class="filter-title">Size</h2>-->
+<!--                        <div class="filter-option">-->
+<!--                            <ul>-->
+<!--                                <li>-->
+<!--                                    <input type="checkbox" id="size S" name="size[]">-->
+<!--                                    <label for="size S" class="check-content">size S <span class="counter"></span></label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <input type="checkbox" id="size M" name="size[]">-->
+<!--                                    <label for="size M" class="check-content">size M <span class="counter"></span></label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <input type="checkbox" id="size L" name="size[]">-->
+<!--                                    <label for="size L" class="check-content">size L <span class="counter"></span></label>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
                     </div>
                     <div class="group-filter">
                         <h2 class="filter-title">Price</h2>
@@ -120,6 +120,11 @@ echo "</pre>";
                                 <li>
                                     <input type="radio" name="price" id="price more" value="3" <?php echo $checked_price2?>>
                                     <label class="radio-content" for="price more"> >500.000đ<span class="counter"></span></label>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="submit" name="filter" value="filter" class="btn btn-info">
+                                    </div>
                                 </li>
                             </ul>
                         </div>
