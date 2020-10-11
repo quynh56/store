@@ -56,7 +56,9 @@
             /*width: 0;*/
             /*height: 0;*/
         /*}*/
-
+        .myFormContact .col-md-2, .myFormContact .col-md-10{
+            padding:0;
+        }
     </style>
 
 </head>

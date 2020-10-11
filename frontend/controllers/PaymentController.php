@@ -136,7 +136,7 @@ class PaymentController extends Controller{
 
             // Content
             $mail->isHTML(true);                                  // Set email format to HTML
-            $mail->Subject = 'Tiêu đề gửi Mail';
+            $mail->Subject = 'GDT.Store- SẢN PHẨM ĐÃ ĐẶT HÀNG';
             $mail->Body    .= '
 <h4>Thông tin người mua hàng</h4>
         <table border="1" cellpadding="10 18px" cellspacing="0">

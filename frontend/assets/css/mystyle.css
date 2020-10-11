@@ -3114,29 +3114,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*CONTACT*/
-.contact .column{margin:0;}
+
 .contact{
     position:relative;
     height:100%;
 }
-.myFormConact{
-    position:absolute;
-    top:25px;
-    left:25px;
-    max-width:782px;
-    background:white;
-    padding:25px;
+.myFormContact {
+    position: absolute;
+    top: 20%;
+    padding:30px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    left: 25px;
+    right: 25px;
+}
+.myFormContact p.text {
+    text-align: center;
+    font-size: 30px;
+    font-family: playfairdisplay;
 }
 .myFormContact label,.leave-cmt label, .post-icon span{
-    float:left;
+    /*float:left;*/
     border:1px solid #ccc;
     border-right:none;
-    width:60px;
+    width:100%;
     line-height:60px;
     text-align:center;
     color:#1aa5a3;
     position:relative;
-    margin-bottom:10px;
+    /*margin-bottom:10px;*/
 }
 .myForm label::after,.leave-cmt label::after ,.post-icon span::after{
     content:"";
@@ -3150,13 +3157,16 @@ h1, h2, h3, h4, h5, h6 {
     transform:translate(-50%,-50%);
 }
 .myFormContact input , .leave-cmt input{
-    float:left;
-    width:80%;
+    /*float:left;*/
+    width:100%;
     border:1px solid #ccc;
     padding:18px;
-    margin-bottom:10px;
+    /*margin-bottom:10px;*/
 }
-
+.myFormContact input[type='submit']{
+    width: 100%;
+    background:#1aa5a3;
+}
 .myFormConact textarea , .leave-cmt textarea{
     width:100%;
     height:135px;
@@ -3171,14 +3181,5 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     background:#1aa5a3;
 }
-
-.myFormContact {
-    position: absolute;
-    top: 20%;
-    padding:30px;
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    left: 25px;
-    right: 25px;
-}
+label{margin:0;}
+.myFormConact .form-group.row{padding:0;margin:0;}
