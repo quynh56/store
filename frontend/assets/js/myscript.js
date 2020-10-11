@@ -1,20 +1,20 @@
-var filterTitle,i;
-filterTitle=document.getElementsByClassName("filter-title");
-for(i=0;i<filterTitle.length;i++){
-    filterTitle[i].addEventListener("click",function () {
-
-        this.classList.toggle("active");
-        var filterOption = this.nextElementSibling;
-        if(filterOption.style.display =="block"){
-            filterOption.style.display ="none";
-            filterOption.style.opacity ="0";
-        }else{
-            // filterOption.style.maxHeight += filterOption.scrollHeight+ "px";
-            filterOption.style.display ="block";
-            filterOption.style.opacity = "1";
-        }
-    })
-}
+// var filterTitle,i;
+// filterTitle=document.getElementsByClassName("filter-title");
+// for(i=0;i<filterTitle.length;i++){
+//     filterTitle[i].addEventListener("click",function () {
+//
+//         this.classList.toggle("active");
+//         var filterOption = this.nextElementSibling;
+//         if(filterOption.style.display =="block"){
+//             filterOption.style.display ="none";
+//             filterOption.style.opacity ="0";
+//         }else{
+//             // filterOption.style.maxHeight += filterOption.scrollHeight+ "px";
+//             filterOption.style.display ="block";
+//             filterOption.style.opacity = "1";
+//         }
+//     })
+// }
 //Login
 var close= document.getElementById("close");
 // var formLogin =document.getElementById("formLogin");

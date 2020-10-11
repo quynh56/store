@@ -1356,7 +1356,7 @@ span.circle {
     padding:0;
     font-size:12px;
 }
-.sizebody .size-content, .detail-description .size-content{display:none}
+/*.sizebody .size-content, .detail-description .size-content{display:none}*/
 
 /*CART */
 .breadcrumb-text {
